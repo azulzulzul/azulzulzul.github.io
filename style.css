@@ -1,0 +1,66 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif; /* Menentukan font */
+    background-color: #f4f4f4; /* Warna latar belakang abu-abu muda */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Memastikan body mengisi seluruh tinggi viewport */
+}
+
+/* Kontainer Utama */
+.container {
+    background-color: #fff; /* Latar belakang putih untuk kontainer */
+    padding: 30px;
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
+    text-align: center; /* Teks di tengah */
+    max-width: 700px; /* Lebar maksimum kontainer */
+    width: 90%; /* Lebar akan responsif */
+}
+
+/* Judul Utama */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Teks Paragraf */
+p {
+    color: #555;
+    line-height: 1.6; /* Jarak antar baris */
+}
+
+/* Bagian Biodata */
+.biodata-section {
+    margin-top: 20px;
+    text-align: left; /* Teks di kiri untuk bagian ini */
+}
+
+/* Judul Bagian */
+.biodata-section h2 {
+    color: #007bff; /* Warna biru untuk judul bagian */
+    margin-bottom: 15px;
+}
+
+/* Daftar (List) */
+ul {
+    list-style-type: disc; /* Tipe marker daftar */
+    padding-left: 20px; /* Padding kiri untuk daftar */
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Link */
+a {
+    color: #007bff; /* Warna biru untuk link */
+    text-decoration: none; /* Menghilangkan garis bawah link */
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat dihover */
+}
